@@ -264,7 +264,7 @@ sub {
 /*--------------------- STRUCTURE ---------------------*/
 
 #main {
-	background: #333333;     /* #ff6200 #5e91ff  #ababed*/
+	background: #404040;     /* #ff6200 #5e91ff  #ababed*/
 /*	background: 
  	-moz-linear-gradient(top, #d9dede 0%, #efefef 40%, #efefef 60%, #d9dede 100%); */
     padding: 40px 0 200px;
@@ -413,6 +413,7 @@ a:hover {
 	text-decoration:underline;
 }
 h1 a:link, h1 a:visited, h2 a:link, h2 a:visited, h3 a:link, h3 a:visited, h4 a:link, h4 a:visited, h5 a:link, h5 a:visited, h6 a:link, h6 a:visited {
+	color: #1cb9fc;
 	text-decoration: none;
 }
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
@@ -851,6 +852,10 @@ ul#grid {
 #grid li a:hover img {
 opacity:0.3; filter:alpha(opacity=30);
   }
+
+#grid li input {
+	width: 20px;
+}
 
 grid_display {
   padding: 20px;
